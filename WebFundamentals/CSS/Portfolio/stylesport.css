@@ -1,0 +1,94 @@
+/*CSS reset settings here*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    outline: 1px dotted red;
+    width: 970px;
+    height: 1000px;
+    background: radial-gradient(#6f5964, #6f5964, #4a363e);
+    /* background-color: radial-gradient(#6f5964, #6f5964, #4a363e); */
+    margin: 0 auto;
+}
+
+#header {
+    outline: 1px dotted red;
+    width: 100%;
+    height: 70px;
+    background-color: #f9f9f9;
+    display: inline-block;
+}
+
+#header h1 {
+    color: black;
+    margin-left: 20px;
+    line-height: 70px;
+    font-family: cursive;
+    display: inline-block;
+}
+
+#header h2 {
+    color: black;
+    width: 750px;
+    text-align: right;
+    line-height: 70px;
+    display: inline-block;
+}
+
+#photo {
+    outline: 1px dotted red;
+    width: 400px;
+    height: auto;
+    border: 2px solid #f9f9f9;
+    margin: 20px;
+    display: inline-block;
+}
+
+#about {
+    width: 500px;
+    height: 267px;
+    vertical-align: top;
+    margin: 20px 20px 0 0;
+}
+
+.box {
+    outline: 1px dotted red;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    margin: 10px;
+    background: #fcfbfc;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #fcfbfc 0%, #dccddb 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #fcfbfc 0%, #dccddb 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #fcfbfc 0%, #dccddb 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.title {
+    background: #b0b0b4;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #b0b0b4 0%, #898795 50%, #b0b0b4 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #b0b0b4 0%, #898795 50%, #b0b0b4 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #b0b0b4 0%, #898795 50%, #b0b0b4 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    width: inherit;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+#footer {
+    outline: 1px dotted red;
+}
