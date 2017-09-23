@@ -1,0 +1,153 @@
+/*CSS reset settings here*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    outline: 1px dotted red;
+    width: 970px;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#box {
+    width: 970px;
+    height: 600px;
+    background-color: #245176;
+    display: inline-block;
+}
+
+#photo {
+    width: 380px;
+    height: auto;
+    margin-left: 30px;
+    /* padding: 50px; */
+}
+
+#header {
+    /* outline: 1px dotted red; */
+    width: 830px;
+    height: 45px;
+    background-color: #477eac;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    /* color: white; */
+    line-height: 45px;
+}
+
+.navnav {
+    color: white;
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 23px;
+}
+
+#textbar {
+    width: 970px;
+    height: 20px;
+    background-color: #245176;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.textsize {
+    text-align: right;
+    text-align: top;
+    color: white;
+    vertical-align: top right;
+    margin: 3px;
+}
+
+#textbar a {
+    color: yellow;
+}
+
+#search {
+    width: 250px;
+    height: 60px;
+    background-color: #444444;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    margin-left: 300px;
+}
+
+button {
+    background-color: #245176;
+    border-radius: 5px;
+    color: white;
+    box-sizing: border-box;
+    font-size: .6em;
+    height: 25px;
+    width: 35px;
+}
+
+.list ul {
+    width: 200px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    list-style-position: inside;
+    display: inline-block;
+}
+
+.list a {
+    margin-bottom: 50px;
+    /* margin: 15px; */
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+}
+
+.list li {
+    margin-top: 10px;
+}
+
+.para {
+    width: 500px;
+    height: 50px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 30px;
+    vertical-align: top;
+}
+
+#yellow {
+    color: yellow;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#yellow span {
+    margin-bottom: 10px;
+}
+
+#maincontent {
+    margin-left: 200px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    vertical-align: top;
+}
