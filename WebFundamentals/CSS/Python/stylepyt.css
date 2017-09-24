@@ -4,7 +4,9 @@
     margin: 0px;
     padding: 0px;
 }
-
+html * {
+    /* outline: 1px dotted red; */
+}
 #wrapper {
     outline: 1px dotted red;
     width: 970px;
@@ -78,7 +80,7 @@
     display: inline-block;
     vertical-align: top;
     border-radius: 10px;
-    padding: 20px 20px;
+    padding: 20px 0px 20px 20px;
     margin-top: 15px;
     box-sizing: border-box;
     margin-left: 300px;
@@ -93,7 +95,11 @@ button {
     height: 25px;
     width: 35px;
 }
-
+.list {
+    display: inline-block;
+    margin-left: 50px;
+    height: 300px;
+}
 .list ul {
     width: 200px;
     height: 300px;
@@ -113,6 +119,7 @@ button {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: .9em;
+    
 }
 
 .list li {
@@ -120,34 +127,128 @@ button {
 }
 
 .para {
-    width: 500px;
-    height: 50px;
+    width: 420px;
+    height: 100px;
     color: white;
     display: inline-block;
     text-align: center;
-    margin-left: 120px;
-    margin-top: 30px;
+    margin-left: 40px;
+    margin-top: 10px;
     vertical-align: top;
+    
 }
 
-#yellow {
-    color: yellow;
+.yellow {
+    color: #f3ce05;
     display: inline-block;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     vertical-align: top;
     display: inline-block;
+    line-height: 30px;
+    font-size: 14pt;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    width: 400px;
 }
 
-#yellow span {
+.yellow span {
     margin-bottom: 10px;
+}
+.yellow p {
+    color: white;
 }
 
 #maincontent {
-    margin-left: 200px;
+    margin-left: 100px;
     display: inline-block;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
     vertical-align: top;
+    width: 400px;
+    height: 400px;    
+}
+#dropdown {
+    display: inline-block;
+    background-color: white;
+    width: 970;
+    /* height: 500; */
+    vertical-align: top;
+    margin: 10px;
+    
+}
+#dropdown h1 {
+   font-size: 13pt;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 10px;
+}
+#dropdown ul {
+    color: #477eac;
+    
+}
+#dropdown span {
+    color: #477eac;
+}
+#dropdown p {
+    font-size: 10pt;
+}
+.down1 {
+    width: 400px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    vertical-align: top;
+    margin: 20px;
+    border-top: 3px solid #477eac;
+    margin-left: 40px;
+}
+.down1 h1 {
+    /* border-top: 2pt solid #477eac; */
+}
+.down2 {
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    color: black;
+    vertical-align: top;
+    margin: 20px;
+    border-top: 3px solid #477eac;
+}
+#footer {
+    width: 970px;
+    height: 125px;
+    background-color: #245176;
+    display: inline-block;
+}
+#footer h3{
+    display: inline-block;
+    vertical-align: text-bottom;
+    text-align: center;
+    /* margin: 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 80px;
+    margin-top: 70px;
+    /* padding: 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #84b0df;
+}
+#footer p {
+    display: inline-block;
+    /* vertical-align: text-bottom; */
+    text-align: center;
+}
+#footer span {
+    /* margin-left: 100px; */
+}
+#footer p {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    font-size: 6pt;
+    margin-left: 400px;
+    margin-top: 20px;
+    color: #84b0df;
 }
