@@ -1,6 +1,6 @@
 var HOUR = 8;
 var MINUTE = 50;
-var PERIOD = "PM";
+var PERIOD = "AM";
 
 function TellTime() {
     var time;

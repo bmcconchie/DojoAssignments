@@ -1,0 +1,171 @@
+/*CSS reset settings here*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html * {
+    outline: 1px dotted red;
+}
+
+#wrapper {
+    width: 970px;
+    height: 1000px;
+    background-color: #e9e9e9;
+    margin: 0 auto;
+}
+
+#header {
+    width: 970px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+#header img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 20px;
+    position: relative;
+    top: 18px;
+}
+
+#header h1 {
+    margin-left: 200px;
+    width: 400px;
+    display: inline-block;
+    font-size: 25pt;
+    margin-left: 5px;
+    vertical-align: top;
+    margin-top: 60px;
+}
+
+#header span {
+    color: #2668a0;
+}
+
+#nav {
+    background: linear-gradient(#356D9B, #5283ac, #3571a3);
+    width: 970px;
+    height: 40px;
+    /* margin-bottom: 20px; */
+}
+
+#nav p {
+    /* background-color: #2668a0; */
+    /* Standard syntax */
+    /* width: 970px; */
+    height: 50px;
+    color: white;
+    vertical-align: middle;
+    font-size: 20pt;
+    /* text-align: left; */
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#subcontent {
+    width: 200px;
+    height: 600px;
+    display: inline-block;
+    /* margin-bottom: 50px; */
+}
+
+#subcontent h3 span {
+    color: red;
+}
+
+#subcontent p span {
+    color: #356D9B;
+}
+
+#subcontent p {
+    color: black;
+}
+
+#subcontent #watch {
+    width: inherit;
+    height: 50px;
+    background-color: #3977ab;
+    border-radius: 10px;
+    color: white;
+    display: block;
+}
+
+#subcontent #more {
+    width: inherit;
+    height: 50px;
+    background-color: #ee7f00;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border-bottom: 2px solid black;
+    /* padding-bottom: 50px; */
+    /* border-style: outset; */
+}
+
+#subcontent h4 {
+    width: 200px;
+    height: 2px;
+    background-color: black;
+    margin-top: 25px;
+}
+
+#background {
+    background-image: url("Images/ad_background.png");
+    width: inherit;
+    height: 300px;
+    /* border-top: 2px solid black; */
+    /* padding-top: 20px; */
+    margin-top: 30px;
+}
+
+#background p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    /* padding-top: 25px; */
+    padding: 20px;
+    text-align: center;
+    height: 60px;
+    display: inline-block;
+}
+
+#background img {
+    width: 80px;
+    height: 100px;
+    vertical-align: middle;
+    /* margin-top: 20px; */
+    margin-left: 60px;
+    display: block;
+}
+
+#background #learn {
+    width: 150px;
+    height: 30px;
+    background-color: #23c6df;
+    color: white;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#mainbar {
+    width: 771px;
+    height: 75px;
+    margin-left: 220px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+#mainbar img {
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    display: inline-block;
+    position: absolute;
+    /* align: top */
+}
