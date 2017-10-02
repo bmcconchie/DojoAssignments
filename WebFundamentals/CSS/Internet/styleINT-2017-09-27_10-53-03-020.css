@@ -190,37 +190,12 @@ html * {
 #mainbarright {
     vertical-align: top;
     display: inline-block;
-    height: 70px;
-    width: 220px;
-    margin-left: 250px;
-    position: absolute;
-    margin-bottom: 50px;
+    height: 60px;
+    width: 200px;
+    margin-left: 400px;
 }
 
 #mainbarright img {
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    position: relative;
-    margin: 0px;
-}
-
-#mainbarright span {
-    font-size: 14pt;
-    color: #04c1df;
-    position: relative;
-    display: block;
-}
-
-#mainbarright p {
-    font-size: 7pt;
-    color: black;
-    position: relative;
-    display: block;
-    width: 150px;
-    margin-left: 60px;
-}
-
-.p {
-    /* margin-bottom: 50px; */
+    width: 100px;
+    height: 100px;
 }

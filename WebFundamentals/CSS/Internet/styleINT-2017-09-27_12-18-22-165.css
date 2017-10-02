@@ -219,8 +219,9 @@ html * {
     display: block;
     width: 150px;
     margin-left: 60px;
+    padding: 5px;
 }
 
-.p {
+#mainbarright .class p {
     /* margin-bottom: 50px; */
 }

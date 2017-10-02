@@ -1,0 +1,8 @@
+pip install Django = install Django
+pip list = lists folders in pip
+pip install Django = information shows that its collecting Django also using cached Django and placing it in its path c:\python27\lib\site-packaged. and letting you know that its completed.
+pip freeze = output installed packages in requiements format.
+pip list = List installed packages.
+pip uninstall Django = uninstall Django 
+pip show Django = shows what version and other information of Django your using. 
+pip search Flask = lists all the files in Flask
