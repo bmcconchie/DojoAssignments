@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    {% with messages = get_flashed_messages() %} {% if messages %} {% for message in messages %}
+    <p>{{message}}</p>
+    {% endfor %} {% endif %} {% endwith %}
+    <form action="/result" method="post">
+        <input type="text" name="name" placeholder="Enter your name">
+        <select name="location" id="">
+                <option value="Bellvue">Bellvue</option>
+                <option value="San Jose">San Jose</option>
+                <option value="San Francisco">San Francisco</option>
+                <option value="Irvine">Irvine</option>
+        </select>
+        <select name="language" id="">
+                <option value="Python">Python</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="HTML">HTML</option>
+                <option value="C#">C#</option>
+        </select>
+        <textarea name="comment" id="" cols="50" rows="4" placeholder="Comment"></textarea>
+
+        <input type="submit" value='Button'>
+
+
+    </form>
+
+</body>
+
+</html>

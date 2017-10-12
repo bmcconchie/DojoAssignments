@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <P>Your gold count: {{gold}}</P>
+    <form action="/process" method="post">
+        <input type="hidden" name="building" value='cave'>
+        <input type="submit" value='Go to the cave'>
+    </form>
+    <form action="/process" method="post">
+        <input type="hidden" name="building" value='house'>
+        <input type="submit" value='Go to the house'>
+    </form>
+    <form action="/process" method="post">
+        <input type="hidden" name="building" value='castle'>
+        <input type="submit" value='Go to the castle'>
+    </form>
+
+</body>
+
+</html>
